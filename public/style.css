@@ -1,0 +1,136 @@
+.titleHome{
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.one h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.one h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+}
+.one h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
+
+
+.description {
+  padding-top: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 40%;
+  text-align: center;
+  padding-top: 30px;
+  width: 20%;
+}
+.icon h1 {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+.container{
+margin-left: 190px;
+width: 70%;
+padding-top: 40px;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container1 h1 {
+  font-size: 12px;
+  margin-right: 20px;
+}
+.container img{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: 1px solid #181818;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ margin-right: 18px;
+  padding-top: 20px;
+  
+}
+.container2 h1 {
+  font-size: 12px;
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ margin-right: 18px;
+  padding-top: 20px;
+  
+}
+.container3 h1 {
+  font-size: 12px;
+}
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  font-size: 22px;
+}
